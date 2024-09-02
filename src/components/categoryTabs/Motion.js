@@ -20,7 +20,7 @@ function Motion({
 
   const { height, width } = getBounds(previewRef);
 
-  console.log("motionState", motionState, localState);
+  
 
   const setReplayState = (prev, deltaX = 0, deltaY = 0) => [
     ...prev,

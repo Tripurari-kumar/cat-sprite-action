@@ -92,7 +92,6 @@ function Looks({ lookState, setLookState, setActionHistory, motionState }) {
     });
   };
 
-  console.log("looksection", localState, lookState);
 
   const renderAction = (config) => {
     switch (config.id) {

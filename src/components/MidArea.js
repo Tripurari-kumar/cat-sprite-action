@@ -1,6 +1,6 @@
 import React from "react";
-import Motion from "./categoryTabs/motion";
-import Looks from "./categoryTabs/looks";
+import Motion from "./categoryTabs/Motion";
+import Looks from "./categoryTabs/Looks";
 import ReplayControls from "./categoryTabs/Replay";
 
 export default function MidArea({

@@ -70,7 +70,6 @@ export default function PreviewArea({
     return () => window.removeEventListener("resize", handleResize);
   }, [setMotionState]);
 
-  console.log("currentTextAction", lookState?.currentTextAction);
 
   useEffect(() => {
     if (
